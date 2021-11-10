@@ -8,17 +8,18 @@ import org.junit.jupiter.api.Test;
 import org.sonar.plugins.java.api.CheckRegistrar;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class MyJavaFileCheckRegistrarTest {
 
-  @Test
-  void checkNumberRules() {
-    CheckRegistrar.RegistrarContext context = new CheckRegistrar.RegistrarContext();
+  class MyJavaFileCheckRegistrarTest {
 
-    MyJavaFileCheckRegistrar registrar = new MyJavaFileCheckRegistrar();
-    registrar.register(context);
+    @Test
+    void checkNumberRules() {
+      CheckRegistrar.RegistrarContext context = new CheckRegistrar.RegistrarContext();
 
-    assertThat(context.checkClasses()).hasSize(8);
-    assertThat(context.testCheckClasses()).hasSize(1);
+      MyJavaFileCheckRegistrar registrar = new MyJavaFileCheckRegistrar();
+      registrar.register(context);
+
+      assertThat(context.checkClasses()).hasSize(9); // change it to 9, we added a new one!
+      assertThat(context.testCheckClasses()).isEmpty();
+    }
   }
 
-}

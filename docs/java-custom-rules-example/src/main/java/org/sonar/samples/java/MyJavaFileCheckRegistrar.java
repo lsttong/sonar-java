@@ -27,6 +27,7 @@ public class MyJavaFileCheckRegistrar implements CheckRegistrar {
     registrarContext.registerClassesForRepository(MyJavaRulesDefinition.REPOSITORY_KEY, checkClasses(), testCheckClasses());
   }
 
+
   /**
    * Lists all the main checks provided by the plugin
    */
@@ -40,4 +41,5 @@ public class MyJavaFileCheckRegistrar implements CheckRegistrar {
   public static List<Class<? extends JavaCheck>> testCheckClasses() {
     return RulesList.getJavaTestChecks();
   }
+
 }
