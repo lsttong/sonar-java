@@ -1,0 +1,11 @@
+{
+  "title": "此处不应该存在中文",
+  "type": "Bug",
+  "status": "ready",
+  "tags": [
+    "bugs",
+    "gandalf",
+    "magic"
+  ],
+  "defaultSeverity": "Critical"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "单个方法总行数不能超过80",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "tags": ["example"],
+  "defaultSeverity": "Minor"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "枚举类命名应该以ENUM结尾",
+  "type": "Bug",
+  "status": "ready",
+  "tags": [
+    "bugs",
+    "gandalf",
+    "magic"
+  ],
+  "defaultSeverity": "Critical"
+}
