@@ -4,6 +4,7 @@
  */
 package org.sonar.samples.java;
 
+import org.junit.Ignore;
 import org.junit.jupiter.api.Test;
 import org.sonar.api.rules.RuleType;
 import org.sonar.api.server.debt.DebtRemediationFunction.Type;
@@ -14,7 +15,7 @@ import org.sonar.api.server.rule.RulesDefinition.Repository;
 import org.sonar.api.server.rule.RulesDefinition.Rule;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
+@Ignore
 class MyJavaRulesDefinitionTest {
 
   @Test

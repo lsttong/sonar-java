@@ -36,7 +36,9 @@ public final class RulesList {
       AvoidTreeListRule.class,
       MyCustomSubscriptionRule.class,
       SecurityAnnotationMandatoryRule.class,
-      MyFirstCustomCheck.class
+      MyFirstCustomCheck.class,
+      EnumClassNameCheck.class,
+      LimitMethodRows.class
     ));
   }
 
