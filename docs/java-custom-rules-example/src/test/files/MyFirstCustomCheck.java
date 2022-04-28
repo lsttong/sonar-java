@@ -1,6 +1,7 @@
 class MyClass {
   MyClass(MyClass mc) { }
 
+  static  int staticTest(){return 12;}
   int     foo1() { return 0; }
   void    foo2(int value) { }
   int     foo3(int value) { return 0; } // Noncompliant

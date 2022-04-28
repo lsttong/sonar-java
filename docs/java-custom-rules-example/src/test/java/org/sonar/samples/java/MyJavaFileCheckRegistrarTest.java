@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
       MyJavaFileCheckRegistrar registrar = new MyJavaFileCheckRegistrar();
       registrar.register(context);
 
-      assertThat(context.checkClasses()).hasSize(11); // change it to 9, we added a new one!
+      assertThat(context.checkClasses()).hasSize(13); // change it to 9, we added a new one!
       assertThat(context.testCheckClasses()).isEmpty();
     }
   }

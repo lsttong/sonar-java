@@ -8,7 +8,8 @@ public class EnumClassNameCheckTest {
   @Test
   void verify() {
       JavaCheckVerifier.newVerifier()
-        .onFile("src/test/files/Country.java")
+        //.onFile("src/test/files/Country.java")
+        .onFile("src/test/files/testPojo")
         .withCheck(new EnumClassNameCheck())
         .verifyIssues();
     }

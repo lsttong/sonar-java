@@ -96,6 +96,7 @@ public class EnumClassNameCheck extends BaseTreeVisitor implements JavaFileScann
             }
           }else {
             context.reportIssue(this, tree, "The Name Of Enum Class should end with 'Enum'");
+            System.out.println(1);
           }
         }
       }

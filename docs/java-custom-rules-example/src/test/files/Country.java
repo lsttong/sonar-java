@@ -1,4 +1,4 @@
-public enum Country {
+public enum Country {// Noncompliant
   ONE(1,"你"),
   TWO(2,"好"),
   THREE(3,"朋"),

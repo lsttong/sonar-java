@@ -1,7 +1,7 @@
 import org.apache.commons.collections4.list.TreeList;
 import java.util.ArrayList;
 
-class A {
+class A {// Noncompliant
   void foo() {
     TreeList myList = new TreeList(new ArrayList<>()); // Noncompliant {{Avoid using TreeList}}
     // Noncompliant@+1

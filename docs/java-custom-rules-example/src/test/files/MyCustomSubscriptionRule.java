@@ -1,4 +1,4 @@
-class A {
+class A {// Noncompliant
 
   int foo() {}
   int foo(int a) {} // Noncompliant {{message}}

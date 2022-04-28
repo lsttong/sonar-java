@@ -1,4 +1,4 @@
-class A{
+class A{// Noncompliant
 
   public void main(){
     int i =0;

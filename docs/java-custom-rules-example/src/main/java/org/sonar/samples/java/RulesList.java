@@ -38,7 +38,9 @@ public final class RulesList {
       SecurityAnnotationMandatoryRule.class,
       MyFirstCustomCheck.class,
       EnumClassNameCheck.class,
-      LimitMethodRows.class
+      LimitMethodRows.class,
+      PojoMethodRule.class,
+      PojoBooleanNamingRule.class
     ));
   }
 
